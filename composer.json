@@ -1,0 +1,31 @@
+{
+    "name": "taonly/laravel-widgets",
+    "description": "Widgets for Laravel",
+	"type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Timoshkin",
+            "email": "timoshkinandrey@mail.ru",
+			"homepage": "https://github.com/taonly/laravel-widgets",
+			"role": "Developer"
+        }
+    ],
+	"minimum-stability": "stable",
+	"require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "~5.3"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "taonly\\Widgets\\WidgetServiceProvider"
+        ]
+      }
+    },
+    "autoload": {
+        "psr-4": {
+			"taonly\\Widgets\\": "src"
+        }
+    }
+}
