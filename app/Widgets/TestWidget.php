@@ -2,7 +2,7 @@
 
 namespace App\Widgets;
 
-use Klisl\Widgets\Contract\ContractWidget;
+use taonly\Widgets\Contract\ContractWidget;
 
 class TestWidget implements ContractWidget{
  
